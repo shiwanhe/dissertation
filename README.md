@@ -32,6 +32,8 @@ install the following python package
 | transformers | 4.30.2 |
 | fasttext | 0.9.2 |
 
+then execute
+
 python -m spacy download en_core_web_sm
 
 or
