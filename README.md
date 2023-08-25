@@ -59,16 +59,3 @@ Winastwan, R. (2022) Named entity recognition with Bert in pytorch, Medium. Avai
 Zhang, A., Lipton, Z.C., Li, M. and Smola, A.J., 2021. Dive into deep learning. arXiv preprint arXiv:2106.11342.
 
 
-| package | my version |
-|-------|--------|
-| nltk | 3.8.1 |
-| sklearn | 1.2.2 |
-| networkx | 3.1 |
-| numpy | 1.23.5 |
-| keras | 2.10.0 |
-| pandas | 1.5.3 |
-| spacy | 3.4.4 |
-| gensim | 4.3.1 |
-| torch | 1.12.1 |
-| transformers | 4.30.2 |
-| fasttext | 0.9.2 |
