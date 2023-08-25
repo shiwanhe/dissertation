@@ -1,5 +1,5 @@
 # dissertation
-manage large source database
+1. manage large source database
 (1)Data.xlsx can be downloaded from https://liveuclac-my.sharepoint.com/:x:/g/personal/ucapwsh_ucl_ac_uk/EUpvoDXh35dNveUg9mJojIkB79pxDalGTCeWsfywW1yLig?e=EesIhU
 Data.xlsx should be in the same file with word2vec.ipynb
 
@@ -13,10 +13,7 @@ Please download data using this link and save the file train.txt into the same f
 
 Finally, train.txt, glove.twitter.27B folder, glove.6B folder, and abstract_classification.ipynb should be in the same folder
 
-word2vec.ipynb is the implementation of word2vec, abstract_classification.ipynb is for abstract classification, NER.ipynb is to extract named entity from the abstract, and TextRank.ipynb is to extract important sentences and noun chunks.
-
-word2vec.ipynb and NER.ipynb need to work with GPU
-
+2. Packages installation:
 install the following python package
 | package | my version |
 |-------|--------|
@@ -40,7 +37,20 @@ or
 
 python3 -m spacy download en_core_web_sm
 
-Reference:
+3. code implementation
+word2vec.ipynb is the implementation of word2vec, abstract_classification.ipynb is for abstract classification, NER.ipynb is to extract named entity from the abstract, and TextRank.ipynb is to extract important sentences and noun chunks.
+
+word2vec.ipynb and NER.ipynb need to work with GPU
+
+4. database dependency:
+   | code implementation | database dependency |
+    |-------|--------|
+    | word2vec.ipynb | Data.xlsx |
+     | abstract_classification.ipynb | train.txt, glove.twitter.27B folder, glove.6B folder |
+    | NER.ipynb | train.json |
+   | TextRank.ipynb | no database |
+   
+5. Reference:
 Carremans, B. (2019) Word embeddings for sentiment analysis, Medium. Available at: https://towardsdatascience.com/word-embeddings-for-sentiment-analysis-65f42ea5d26e (Accessed: 25 August 2023). 
 
 Winastwan, R. (2022) Named entity recognition with Bert in pytorch, Medium. Available at: https://towardsdatascience.com/named-entity-recognition-with-bert-in-pytorch-a454405e0b6a (Accessed: 25 August 2023). 
