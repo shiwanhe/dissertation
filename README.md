@@ -15,6 +15,7 @@ Finally, train.txt, glove.twitter.27B folder, glove.6B folder, and abstract_clas
 
 2. Packages installation:
 install the following python package
+
 | package | my version |
 |-------|--------|
 | nltk | 3.8.1 |
