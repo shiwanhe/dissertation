@@ -39,3 +39,10 @@ python -m spacy download en_core_web_sm
 or
 
 python3 -m spacy download en_core_web_sm
+
+Reference:
+Carremans, B. (2019) Word embeddings for sentiment analysis, Medium. Available at: https://towardsdatascience.com/word-embeddings-for-sentiment-analysis-65f42ea5d26e (Accessed: 25 August 2023). 
+
+Winastwan, R. (2022) Named entity recognition with Bert in pytorch, Medium. Available at: https://towardsdatascience.com/named-entity-recognition-with-bert-in-pytorch-a454405e0b6a (Accessed: 25 August 2023). 
+
+Zhang, A., Lipton, Z.C., Li, M. and Smola, A.J., 2021. Dive into deep learning. arXiv preprint arXiv:2106.11342.
