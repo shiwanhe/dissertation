@@ -29,6 +29,7 @@ install the following python package
 | torch | 1.12.1 |
 | transformers | 4.30.2 |
 | fasttext | 0.9.2 |
+| tensorflow | 2.10.0 |
 
 then execute
 
